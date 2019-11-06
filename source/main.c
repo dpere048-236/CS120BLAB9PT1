@@ -96,13 +96,13 @@ void button_tick(){
 			set_PWM(0);
 			break;
 		case c:
-			set_PWM(261.63)
+			set_PWM(261.63);
 			break;
 		case d:
-			set_PWM(293.66)
+			set_PWM(293.66);
 			break;
 		case e:
-			set_PWM(329.63)
+			set_PWM(329.63);
 			break;
 	}
 }
@@ -115,7 +115,7 @@ int main(void) {
 	state = off;
     /* Insert your solution below */
     while (1) {
-	button_Tick();
+	button_tick();
     }
     return 0;
 }
